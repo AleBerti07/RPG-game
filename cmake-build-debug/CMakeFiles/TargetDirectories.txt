@@ -1,0 +1,3 @@
+/Users/bertao/Documents/RPG-game/cmake-build-debug/CMakeFiles/RPG_game.dir
+/Users/bertao/Documents/RPG-game/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/bertao/Documents/RPG-game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
