@@ -8,7 +8,12 @@ void FSM::start() {
     emit stateChanged(state);
 }
 
-void FSM::create() {
+void FSM::create_character() {
     state = State::CREATE_CHARACTER;
+    emit stateChanged(state);
+}
+
+void FSM::generate_attributes(){
+    state = State::GENERATE_ATTRIBUTES;
     emit stateChanged(state);
 }

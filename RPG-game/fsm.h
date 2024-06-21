@@ -9,7 +9,8 @@ public:
     enum class State {
         INIT,
         HOME,
-        CREATE_CHARACTER
+        CREATE_CHARACTER,
+        GENERATE_ATTRIBUTES
 
     };
     Q_ENUM(State)
@@ -19,7 +20,9 @@ public:
 public slots:
     void start();
 
-    void create();
+    void create_character();
+
+    void generate_attributes();
 
 signals:
     void stateChanged(State state);

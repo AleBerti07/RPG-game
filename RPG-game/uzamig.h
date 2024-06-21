@@ -25,6 +25,9 @@ private slots:
 
     void on_crt_charButton_clicked();
 
+
+    void on_attributesButton_clicked();
+
 private:
     Ui::uzamig *ui;
     FSM fsm;
